@@ -17,7 +17,8 @@
 }
 
 .sidebar > li {
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1rem; */
+  padding: 1.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -37,4 +38,24 @@
   background-color: #b9adad;
   border-radius: 50%;
   padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar > li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    box-shadow: none;
+  }
+
+  .side_heading {
+    font-size: 1rem;
+  }
+
+  .sidebar > li > span {
+    font-size: 14px;
+    font-family: sans-serif;
+  }
 }

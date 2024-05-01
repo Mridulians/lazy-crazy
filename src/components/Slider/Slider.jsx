@@ -1,6 +1,4 @@
-// import React from 'react'
-
-import './Slider.css'
+import "./Slider.css";
 
 import { useState } from "react";
 
@@ -24,12 +22,13 @@ const Slider = () => {
   };
   return (
     <div className="slider">
-      <button onClick={handlePrevious} className='pre'>p</button>
-      <img
-        src={data[currentImage]}
-        alt=""
-      />
-      <button onClick={handleNext} className='next'>n</button>
+      <button onClick={handlePrevious} className="pre">
+        P
+      </button>
+      <img src={data[currentImage]} alt="" />
+      <button onClick={handleNext} className="next">
+        n
+      </button>
     </div>
   );
 };

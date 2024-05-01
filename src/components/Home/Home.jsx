@@ -14,12 +14,14 @@ const Home = () => {
         <div className="slider_1">
           <Slider />
           <Slider />
-        </div>
-        <div className="slider_1">
           <Slider />
           <Slider />
+          <Slider />
+          <Slider />
+          <Slider />
+          <Slider />
+          <Slider />
         </div>
-      
       </div>
     </div>
   );
