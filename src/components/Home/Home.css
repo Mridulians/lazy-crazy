@@ -1,0 +1,22 @@
+.home {
+  /* height: 90vh; */
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar_part {
+  flex: 1;
+}
+.images_part {
+  flex: 4;
+}
+
+.slider_1{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

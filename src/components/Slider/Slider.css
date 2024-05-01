@@ -1,0 +1,26 @@
+.slider {
+  position: relative;
+}
+
+.slider img {
+  width: 500px;
+  height: 200px;
+}
+
+/* .pre {
+  position: absolute;
+  top: 5rem;
+}
+
+.next {
+  position: absolute;
+  top: 5rem;
+  left: 28rem;
+} */
+
+@media screen and (max-width: 800px) {
+  .slider img {
+    width: 200px;
+    height: 100px;
+  }
+}
